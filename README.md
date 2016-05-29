@@ -16,4 +16,13 @@ Installation
   * Nginx: Pretty much just overwrite
   * CouchDB: Symlink to config directory
   * RabbitMQ:
-  	1. `rabbitmq-plugins enable rabbitmq_web_stomp_examples`
+    1. `rabbitmq-plugins enable rabbitmq_web_stomp_examples`
+
+Uploading
+---------
+
+something something [x264](https://www.videolan.org/developers/x264.html) script
+
+something something Amazon S3
+
+something something upload page
