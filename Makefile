@@ -8,11 +8,11 @@ test: all
 .PHONY: test
 
 # Generate some bits of configuration necessary for the daemons
-config: nginx.root.conf
+config: nginx/root.conf
 .PHONY: config
 
 appdir := $(dir $(abspath $(lastword $(MAKEFILE_LIST))))static
-nginx.root.conf:
+nginx/root.conf:
 	echo "root ${appdir};" > $@
 
 # Here's dependencies we're using. They're in git so we don't end up with version mismatches, but this will remake them

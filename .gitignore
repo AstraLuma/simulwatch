@@ -1,2 +1,3 @@
 *.sublime-workspace
-/nginx.root.conf
+/nginx/root.conf
+/.vagrant/
